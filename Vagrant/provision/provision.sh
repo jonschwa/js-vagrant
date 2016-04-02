@@ -55,10 +55,6 @@ fi
 
 ##Copy Nginx Configs
 sudo cp /vagrant/provision/nginx/* /etc/nginx/conf.d/
-#sudo cp /vagrant/provision/nginx/ee.conf /etc/nginx/conf.d/ee.conf
-#sudo cp /vagrant/provision/nginx/tools.conf /etc/nginx/conf.d/tools.conf
-#sudo cp /vagrant/provision/nginx/laravel.conf /etc/nginx/conf.d/laravel.conf
-#sudo cp /vagrant/provision/nginx/wordpress.conf /etc/nginx/conf.d/wordpress.conf
 
 ##change nginx runtime user to vagrant
 sudo sed -i 's/user = www-data/user = vagrant/g' /etc/php5/fpm/pool.d/www.conf
