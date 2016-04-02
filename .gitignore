@@ -1,0 +1,6 @@
+/ubuntu/config/vhosts.sh
+.DS_Store
+Vagrant/.vagrant
+
+Code/*
+!Code/.gitkeep
